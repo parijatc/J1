@@ -12,6 +12,8 @@
 		1BC3270920DCACA1008BB924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC3270720DCACA1008BB924 /* Main.storyboard */; };
 		1BC3270B20DCACA2008BB924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC3270A20DCACA2008BB924 /* Assets.xcassets */; };
 		1BC3270E20DCACA2008BB924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC3270C20DCACA2008BB924 /* LaunchScreen.storyboard */; };
+		1BC3271720DCB0A7008BB924 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 1BC3271520DCB0A6008BB924 /* Fastfile */; };
+		1BC3271820DCB0A7008BB924 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 1BC3271620DCB0A6008BB924 /* Appfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1BC3270A20DCACA2008BB924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BC3270D20DCACA2008BB924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BC3270F20DCACA2008BB924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC3271520DCB0A6008BB924 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
+		1BC3271620DCB0A6008BB924 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Appfile; path = fastlane/Appfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		1BC326F720DCACA1008BB924 = {
 			isa = PBXGroup;
 			children = (
+				1BC3271620DCB0A6008BB924 /* Appfile */,
+				1BC3271520DCB0A6008BB924 /* Fastfile */,
 				1BC3270220DCACA1008BB924 /* J1 */,
 				1BC3270120DCACA1008BB924 /* Products */,
 			);
@@ -123,7 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC3270E20DCACA2008BB924 /* LaunchScreen.storyboard in Resources */,
+				1BC3271820DCB0A7008BB924 /* Appfile in Resources */,
 				1BC3270B20DCACA2008BB924 /* Assets.xcassets in Resources */,
+				1BC3271720DCB0A7008BB924 /* Fastfile in Resources */,
 				1BC3270920DCACA1008BB924 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
