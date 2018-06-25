@@ -21,7 +21,7 @@ platform :ios do
 	get_certificates           # invokes cert
 	  get_provisioning_profile   # invokes sigh
 	  build_app
-    enable_automatic_code_signing(path: "my_project.xcodeproj")
+    enable_automatic_code_signing(path: "J1.xcodeproj")
     upload_to_testflight
   end
 end
