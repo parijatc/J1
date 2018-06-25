@@ -1,4 +1,4 @@
- app_identifier("[[YTMBXRP254]]") # The bundle identifier of your app
+# app_identifier("[[YTMBXRP254]]") # The bundle identifier of your app
 #apple_id("[[charlie.majane@carey.com]]") # Your Apple email address
 
 
